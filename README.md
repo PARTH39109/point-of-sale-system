@@ -370,15 +370,16 @@ Authorization: Bearer <your_jwt_token>
 
 ## Screenshots
 
-| Store Admin Dashboard | POS Terminal Checkout |
-|:---:|:---:|
-| *(Add Dashboard Screenshot)* | *(Add POS Terminal Screenshot)* |
+| Store Admin Dashboard |
+[Admin Dashboard](https://github.com/user-attachments/assets/ec3327cf-2f17-4d1d-b703-55c4723b30c9)
 
-| Branch & Inventory Management | Enterprise Settings & Billing |
-|:---:|:---:|
-| *(Add Inventory Screenshot)* | *(Add Settings Screenshot)* |
 
----
+| Branch Manager Dashboard |
+[Manager Dashboard](https://github.com/user-attachments/assets/ff19afc4-4770-462a-86ff-2afeb4737fec)
+
+| Cashier Dashboard | 
+[Cashier Dashboard](https://github.com/user-attachments/assets/71cac8f7-a1f4-4b27-94dc-04d5675febf3)
+ 
 
 ## License
 
