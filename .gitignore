@@ -1,0 +1,122 @@
+# ==============================================================================
+# Git Ignore Configuration - Enterprise Point of Sale (POS) System
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. SENSITIVE CREDENTIALS & LOCAL CONFIGURATION (NEVER COMMIT)
+# ------------------------------------------------------------------------------
+application-local.properties
+**/application-local.properties
+*.local.properties
+**/application-*.local.properties
+
+# Environment variable files containing secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!*.env.example
+!.env.example
+
+# ------------------------------------------------------------------------------
+# 2. BUILD ARTIFACTS & OUTPUT DIRECTORIES
+# ------------------------------------------------------------------------------
+# Backend Maven target folders
+target/
+**/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Frontend & Vite build output folders
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+build/
+**/build/
+out/
+**/out/
+
+# Package manager dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# ------------------------------------------------------------------------------
+# 3. LOGS, RUNTIME CACHE & CRASH REPORTS
+# ------------------------------------------------------------------------------
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.pid
+*.seed
+*.pid.lock
+
+# ------------------------------------------------------------------------------
+# 4. IDE & EDITOR TEMPORARY FILES
+# ------------------------------------------------------------------------------
+# IntelliJ IDEA
+.idea/
+**/.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse & Spring Tool Suite (STS)
+.apt_generated/
+**/.apt_generated/
+.classpath
+**/.classpath
+.factorypath
+**/.factorypath
+.project
+**/.project
+.settings/
+**/.settings/
+.springBeans
+**/.springBeans
+.sts4-cache
+**/.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+**/.vscode/
+!.vscode/extensions.json
+
+# OS Specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ------------------------------------------------------------------------------
+# 5. MAVEN WRAPPER JAR & SYSTEM TEMPS
+# ------------------------------------------------------------------------------
+.mvn/wrapper/maven-wrapper.jar
+.nyc_output/
+coverage/
+**/coverage/
+.github/modernize/java-upgrade/hooks/*.json
